@@ -1,18 +1,18 @@
-// Copyright Fireteam Interactive
+﻿// Copyright Fireteam Interactive
 
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
-#include "DotCharacterBase.generated.h"
+#include "DodCharacterBase.h"
+#include "DodEnemy.generated.h"
 
 UCLASS()
-class DUSKOFDESPAIR_API ADotCharacterBase : public ACharacter
+class DUSKOFDESPAIR_API ADodEnemy : public ADodCharacterBase
 {
     GENERATED_BODY()
 
 public:
-    ADotCharacterBase();
+    ADodEnemy();
 
 protected:
     virtual void BeginPlay() override;
